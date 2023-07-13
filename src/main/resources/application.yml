@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-reactive-elastic-search-client
+  elasticsearch:
+    uris: localhost:9200
+server:
+  port: 8338
