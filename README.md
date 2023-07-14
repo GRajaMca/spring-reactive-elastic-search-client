@@ -4,7 +4,7 @@
 The first thing to do is to start Elasticsearch. For that, you can use the `docker-compose` file in this project  and run it like this:
 
 ```bash
-$ docker-compose -f docker-compose up -d
+$ docker-compose -f elastic-search.yml up -d
 ``` 
 
 It brings Elasticsearch up on a single node cluster with the cluster name `elasticsearch`.
